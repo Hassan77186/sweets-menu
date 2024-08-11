@@ -1,0 +1,140 @@
+@font-face {
+    font-family: kurdishfont;
+    src: url(UniMahanbaxan.ttf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FBEAE7;
+
+}
+
+.container{
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
+    color: #FBEAE7;
+    margin: 5px auto;
+    max-width: 500px;
+    width:98%;
+    height: 700px;
+    background-color: #404041;
+    box-shadow: 0px 0px 12px black;
+}
+.logo{
+    text-align: center;
+    width: 100%;
+    filter: drop-shadow(0px 0px 12px orange);
+}
+.logo img{
+    width: 30%;
+}
+.line {
+    border: 2px solid #FBEAE7;
+    margin: 0px auto;
+    width: 90%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.line2 {
+    border: 2px solid rgb(255, 123, 0);
+    margin: 0px auto;
+    width: 90%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.bar{
+    margin: 5px 0px;
+    display: flex;
+    overflow-x: auto;
+    flex-direction:row-reverse ;
+    width: 100%;
+}
+.bar .sweettype{
+    display: flex;
+    border: 1px solid rgb(255, 123, 0);
+    box-shadow: 0px 0px 6px rgb(255, 123, 0);
+    padding-inline: 8px;
+    border-radius: 10px;
+    margin: 5px 5px;
+    float: right;
+
+}
+.bar .sweettype:nth-child(even){
+    border: 1px solid white;
+    box-shadow: 0px 0px 6px white;
+
+}
+.bar .sweettype .text{ 
+    font-family: kurdishfont;
+
+    display: inline;
+    white-space: nowrap;
+    margin-top: 10px ;
+    margin-right: 5px;
+    height: 20px;
+
+}
+.bar .sweettype img{
+    width: 40px;
+
+}
+
+.item-title{
+    margin: 5px;
+    text-align: center;
+    font-family: kurdishfont;
+    font-size: 30px;
+}
+
+.item-list  {
+    display: grid;
+    gap: 5px;
+    text-align: center;
+    grid-template-columns: auto auto;
+    width: 95%;
+    margin:10px auto;
+
+    border-radius: 8px;
+}
+.item{
+    display: block;
+    margin: 5px;
+    width: 93%;
+    height: 150px;
+    border-bottom: 2px solid white;
+}
+.item-image{
+    margin-inline: auto;
+    width: 80%;
+}
+.item-image img{
+    object-fit: cover;
+    border-radius: 100%;
+    border: 5px double orange;
+    height:80px;
+    width: 80px;
+}
+
+.item-name{
+    margin-inline: auto;
+    font-family: kurdishfont;
+    font-size: 20px;
+    width: 80%;
+    white-space: nowrap;
+}
+.item-price{
+    margin-inline: auto;
+    font-family: kurdishfont;
+    font-size: 18px;
+    width: 80%;
+    white-space: nowrap;
+}
+footer{
+    text-align: center;
+    font-family: kurdishfont;
+    font-size: 18px;
+}
+footer a{
+    color: orange;
+}
